@@ -1,11 +1,12 @@
 ---
 layout: page
+title: Git
+subtitle: Git 공부하며 GitHub과 블로그 만들어보기
 ---
-
 {% assign posts = paginator.posts | default: site.posts %}
 
 <div class="posts-list">
-  {% for post in posts %}
+  {% for post in Gitposts %}
   <article class="post-preview">
 
     {%- capture thumbnail -%}
