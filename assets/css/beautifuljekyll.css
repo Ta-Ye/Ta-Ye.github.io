@@ -662,7 +662,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-size: 1.6875rem;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Nanum Gothic', 'Nanum Gothic','Nanum Gothic', 'Nanum Gothic', 'Nanum Gothic';
   font-weight: 300;
   margin: 0.625rem 0 0;
 }
@@ -687,7 +687,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   padding: 0.3125rem 0.625rem;
   font-size: 0.6875rem;
   color: #EEE;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Nanum Gothic', 'Nanum Gothic', 'Nanum Gothic', 'Nanum Gothic', 'Nanum Gothic';
   right: 0;
   bottom: 0;
   display: none;
