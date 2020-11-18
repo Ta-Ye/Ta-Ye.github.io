@@ -15,14 +15,14 @@ subtitle: Git 공부하며 GitHub과 블로그 만들어보기
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
-                <h4 class="{{ post.url | relative_url }}">
+                <a href="{{ post.url | relative_url }}">
                     {{- post.title -}}
                     {% if post.subtitle %}
                         <h6 class="post-subtitle">
                         {{ post.subtitle }}
                         </h6>
                     {% endif %}
-                    </h4>
+                </a>
                 <div class="entry-date">
                     <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
                 </div>
