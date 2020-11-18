@@ -18,7 +18,7 @@ navbar-links:
     - Python:
     - Java:
   Codetest:
-    - Programmers:
+    - Programmers: "Programmers"
   Project:
   
   Study:
