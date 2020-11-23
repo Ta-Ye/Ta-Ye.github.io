@@ -15,15 +15,16 @@ author: Ta-Ye
 
 navbar-links:
   Language:
-    - Python:
-    - Java:
+    - Sql: "Sql"
   Codetest:
     - Programmers: "Programmers"
+    - Oncoder:
   Project:
   
   Study:
     - Git: "Git"
     - 관계형 데이터 베이스: "RDB"
+    - WEB: "WEB"
     
 # --- Logo --- #
 
