@@ -14,18 +14,15 @@ permalink: /tags/
     <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
     {% endfor %}
   </div>
-</div>
-
-<div class="catalogue">
   {% for post in paginator.posts %}
     {% if post.tag == "Programmers" %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
-      <div>
-        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-        <h1 class="catalogue-title">{{ post.title }}</h1>
-        <div class="catalogue-line"></div>
-        <h3 class="cataolgue-subtitle">{{ post.subtitle}}</h3>
-      </div>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="tags-item">
+        <div>
+          <time datetime="{{ post.date }}" class="tags-time">{{ post.date | date: "%B %d, %Y" }}</time>
+          <h1 class="tags-title">{{ post.title }}</h1>
+          <div class="tags-line"></div>
+          <h3 class="tags-subtitle">{{ post.subtitle}}</h3>
+        </div>
     </a>
     {% endif %}
   {% endfor %}
