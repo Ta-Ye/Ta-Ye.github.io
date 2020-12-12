@@ -15,6 +15,10 @@ permalink: /pages/
       </div>
     </a>
   {% endfor %}
+  <div class="tags-header">
+    <h2 class="tags-header-title">{{ page.title }}</h2>
+    <div class="tags-header-line"></div>
+  </div>  
 </div>
 
 <div class="pagination">
@@ -28,7 +32,3 @@ permalink: /pages/
   <span>{{ paginator.page }}</span>
 </div>
 
-<div class="tags-header">
-  <h2 class="tags-header-title">{{ page.title }}</h2>
-  <div class="tags-header-line"></div>
-</div>
