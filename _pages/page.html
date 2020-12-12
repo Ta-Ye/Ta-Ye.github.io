@@ -4,11 +4,6 @@ title: "Page"
 permalink: /pages/
 ---
 
-<div class="tags-header">
-  <h2 class="tags-header-title">{{ page.title }}</h2>
-  <div class="tags-header-line"></div>
-</div>
-
 <div class="catalogue">
   {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
@@ -31,4 +26,9 @@ permalink: /pages/
   {% endif %}
 
   <span>{{ paginator.page }}</span>
+</div>
+
+<div class="tags-header">
+  <h2 class="tags-header-title">{{ page.title }}</h2>
+  <div class="tags-header-line"></div>
 </div>
