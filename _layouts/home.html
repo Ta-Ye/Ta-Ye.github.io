@@ -9,7 +9,7 @@ layout: default
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
         <h1 class="catalogue-title">{{ post.title }}</h1>
         <div class="catalogue-line"></div>
-        <h3 class="post-subtitle">{{ page.subtitle}}</h3>
+        <h3 class="post-subtitle">{{ post.subtitle}}</h3>
       </div>
     </a>
   {% endfor %}
