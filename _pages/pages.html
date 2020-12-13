@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "PAGES"
-permalink: /pages/
+title: "Git"
+permalink: /git/
 ---
 
 <div class="tags">
@@ -11,22 +11,26 @@ permalink: /pages/
   </div>
   <div class="tags-clouds">
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
+      {% if tag[0] == "Git "%}
+      <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
+      {% endif %}
     {% endfor %}
   </div>
   {% for tag in site.tags %}
+  {% if tag[0] == "Git "%}
   <div class="tags-item" id="{{ tag[0] }}">
     <h2 class="tags-item-label">{{ tag[0] }}</h2>
+    {% for post in tag[1] %}
+    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
+      <div>
+        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+        <h1 class="catalogue-title">{{ post.title }}</h1>
+        <div class="catalogue-line"></div>
+        <h3 class="cataolgue-subtitle">{{ post.subtitle}}</h3>
+      </div>
+    </a>
+    {% endfor %}
   </div>
-  {% for post in tag[1] %}
-  <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
-    <div>
-      <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-      <h1 class="catalogue-title">{{ post.title }}</h1>
-      <div class="catalogue-line"></div>
-      <h3 class="cataolgue-subtitle">{{ post.subtitle}}</h3>
-    </div>
-  </a>
-  {% endfor %}
+  {% endif %}
   {% endfor %}
 </div>
