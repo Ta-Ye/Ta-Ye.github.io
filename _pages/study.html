@@ -1,26 +1,25 @@
 ---
 layout: default
-title: "WEB"
-permalink: /web/
+title: "Study"
+permalink: /Study/
 ---
 
 <div class="tags">
-  {%- assign name1="HTML" -%}
-  {%- assign name2="CSS" -%}
-  {%- assign name3="JS" -%}
+  {%- assign name="project" -%}
   <div class="tags-header">
     <h2 class="tags-header-title">{{ page.title }}</h2>
     <div class="tags-header-line"></div>
+    <h2 class="tags-header-subtitle">{{ page.subtitle }}</h2>
   </div>
   <div class="tags-clouds">
     {% for tag in site.tags %}
-      {% if tag[0] == name1 or tag[0] == name2 or tag[0] == name3 %}
+      {% if tag[0] != name %}
       <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
       {% endif %}
     {% endfor %}
   </div>
   {% for tag in site.tags %}
-  {% if tag[0] == name1 or tag[0] == name2 or tag[0] == name3 %}
+  {% if tag[0] != name %}
   <div class="tags-item" id="{{ tag[0] }}">
     <h2 class="tags-item-label">{{ tag[0] }}</h2>
     {% for post in tag[1] %}
