@@ -13,13 +13,10 @@ permalink: /tags/
   </div>
   <div class="tags-clouds">
     {% for tag in site.tags %}
-    {% if tag[0] != name %}
     <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
-    {% endif %}
     {% endfor %}
   </div>
   {% for tag in site.tags %}
-  {% if tag[0] != name %}
   <div class="tags-item" id="{{ tag[0] }}">
     <svg
       class="tags-item-icon"
@@ -54,6 +51,5 @@ permalink: /tags/
     </a>
     {% endfor %}
   </div>
-  {% endif %}
   {% endfor %}
 </div>
