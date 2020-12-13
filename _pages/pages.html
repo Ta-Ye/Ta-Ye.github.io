@@ -5,19 +5,20 @@ permalink: /git/
 ---
 
 <div class="tags">
+  {%- assign name="Git" -%}
   <div class="tags-header">
     <h2 class="tags-header-title">{{ page.title }}</h2>
     <div class="tags-header-line"></div>
   </div>
   <div class="tags-clouds">
     {% for tag in site.tags %}
-      {% if tag[0] == "Git "%}
+      {% if tag[0] == name %}
       <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
       {% endif %}
     {% endfor %}
   </div>
   {% for tag in site.tags %}
-  {% if tag[0] == "Git "%}
+  {% if tag[0] == name %}
   <div class="tags-item" id="{{ tag[0] }}">
     <h2 class="tags-item-label">{{ tag[0] }}</h2>
     {% for post in tag[1] %}
