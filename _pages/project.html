@@ -14,7 +14,6 @@ permalink: /project/
   {% for tag in site.tags %}
   {% if tag[0] == name %}
   <div class="tags-item" id="{{ tag[0] }}">
-    <h2 class="tags-item-label">{{ tag[0] }}</h2>
     {% for post in tag[1] %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
       <div>
