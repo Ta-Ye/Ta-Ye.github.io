@@ -1,7 +1,7 @@
 ---
 layout: post
-title: HOME
-permalink: ""
+title: About
+permalink: /about
 ---
 
 
