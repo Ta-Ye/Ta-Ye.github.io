@@ -13,7 +13,7 @@ $code-color: #bf616a !default;
 // Fonts
 $serif-primary: 'Libre Baskerville', 'Times New Roman', Times, 'Nanum Gothic' !default;
 $serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', 'Nanum Gothic' !default;
-$sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, 'Nanum Gothic' !default;
+$sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, 'Nanum Gothic', 'Nanum Gothic' !default;
 $monospaced: Menlo, Monaco, monospace !default;
 
 @mixin box-sizing($type: border-box) {
