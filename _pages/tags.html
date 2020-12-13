@@ -26,11 +26,11 @@ permalink: /study/
     {% for post in tag[1] %}
     <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
       <div>
-        {% if post.subtitle%}
+        {% if post.subtitle %}
           <span class="tags-post-title">{{ post.title }}  :  {{ post.subtitle }}</span>
         {% else %}
           <span class="tags-post-title">{{ post.title }}</span>
-        {% end if %}
+        {% endif %}
         <div class="tags-post-line"></div>
       </div>
       <span class="tags-post-meta">
