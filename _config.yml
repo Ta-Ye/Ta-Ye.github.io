@@ -14,7 +14,7 @@ author:
   email:        cty1272@naver.com
 
 # Build settings
-markdown:       CommonMark
+#markdown:       Kramdown
 include:
   - _pages
 
