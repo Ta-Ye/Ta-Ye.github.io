@@ -1,30 +1,522 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-      {% if post.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
 
-      {% if post.sitemap.priority == null %}
-          <priority>0.5</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
+<url>
+  <loc>https://ta-ye.github.io/</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/about/</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/project/</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/study/</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-14/project2</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-13/project1</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-10/Pro57</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-10/Pro56</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-09/JPA7</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-09/JPA6</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-09/JPA5</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-08/Pro55</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-08/Pro54</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-08/Pro53</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/posts/page2/</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-27/Git3</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-17/Git2</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-17/Git1</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-07/Pro52</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-07/Pro51</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-07/Pro50</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-04/Pro49</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-02/Pro48</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-02/Pro47</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-02/Pro46</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-01/Pro45</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-01/Pro44</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-01/Pro43</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-29/Pro42</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-28/Pro41</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-28/Pro40</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-28/Pro39</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-25/Pro38</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-25/Pro37</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-25/Pro36</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-24/Pro35</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-24/Pro34</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-24/Pro33</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-24/Pro32</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-24/Pro31</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-23/Pro30</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-23/Pro29</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-23/Pro28</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-23/Pro27</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-23/Pro26</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-22/Pro25</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-21/Pro24</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-21/Pro23</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-21/Pro22</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-21/Pro21</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-21/Pro20</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-21/Pro19</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-21/Pro18</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-21/Pro17</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-21/Pro16</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-21/Pro15</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-21/Pro14</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-21/Pro13</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-21/Pro12</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-20/Pro9</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-20/Pro11</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-20/Pro10</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-19/Pro8</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-19/Pro7</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-19/Pro6</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-18/Pro5</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-18/Pro4</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-18/Pro3</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-18/Pro2</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-18/Pro1</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-18/Realtion-Data-Modeling4</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-18/Realtion-Data-Modeling3</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-18/Realtion-Data-Modeling2</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-18/Realtion-Data-Modeling1</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-28/sql11</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-27/sql9</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-27/sql8</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-27/sql10</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-25/sql7</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-25/sql6</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-25/sql5</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-24/sql4</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-24/sql3</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-23/sql2</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-23/sql1</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-27/HTML3</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-27/HTML2</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-27/HTML1</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-29/css3</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-29/css2</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-11-29/css1</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-08/JPA4</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-08/JPA3</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-01/JPA2</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/2020-12-01/JPA1</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/posts/page3/</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/posts/page4/</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/posts/page5/</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/posts/page6/</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/posts/page7/</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/posts/page8/</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://ta-ye.github.io/posts/page9/</loc>
+  <lastmod>2020-12-15T01:28:55+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
 
-    </url>
-  {% endfor %}
+
 </urlset>
