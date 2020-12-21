@@ -24,12 +24,16 @@ footer,
   }
 
   &-title {
+    @font-face {
+      font-family: "tvn";
+      src: url("tvN 즐거운이야기 Bold.ttf");
+    }
     @include transition(all .2s ease-out);
     color: $default-color;
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
-
+    font-family: "tvn";
     &:hover,
     &:focus {
       opacity: .6;
